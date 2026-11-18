@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1269491d8a3d93a488c4d4b1ff7ce204, type: 3}
+  m_Name: Level1Sample
+  m_EditorClassIdentifier: ChickenInvader.Runtime::ChickenInvader.LevelDataSO
+  LevelNumber: 1
+  SceneName: Level1
+  Theme: Earth Orbit
+  Music: {fileID: 0}
+  ChickenPrefab: {fileID: 4358639167743500464, guid: 2dd139c24d792e143a38e48887d0ea79, type: 3}
+  ChickenHealth: 3
+  Rounds:
+  - Wave: {fileID: 11400000, guid: 54b0beb8b46ab7544af4bb68491b5564, type: 2}
+    DifficultyMultiplier: 1
+  - Wave: {fileID: 11400000, guid: 1d3d0940f985079448ea53649d9cd2e2, type: 2}
+    DifficultyMultiplier: 1
+  - Wave: {fileID: 11400000, guid: ef55080e53892ee4ea0eb4f7f93c6923, type: 2}
+    DifficultyMultiplier: 1
+  - Wave: {fileID: 11400000, guid: eef9bceacaec1a545a9dbc587bff71fe, type: 2}
+    DifficultyMultiplier: 1
+  - Wave: {fileID: 11400000, guid: 0f49903b43e11a74e901ccb863d9e19b, type: 2}
+    DifficultyMultiplier: 1

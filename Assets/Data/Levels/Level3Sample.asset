@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1269491d8a3d93a488c4d4b1ff7ce204, type: 3}
+  m_Name: Level3Sample
+  m_EditorClassIdentifier: ChickenInvader.Runtime::ChickenInvader.LevelDataSO
+  LevelNumber: 3
+  SceneName: Level3
+  Theme: Earth Orbit
+  Music: {fileID: 0}
+  ChickenPrefab: {fileID: 7468790267804440074, guid: f7c81d791d4467e47a0f0b78e8eb6a8a, type: 3}
+  Rounds:
+  - Wave: {fileID: 11400000, guid: c2ba205fe614a9c4ab0d20c5b5343a34, type: 2}
+  - Wave: {fileID: 11400000, guid: 54b0beb8b46ab7544af4bb68491b5564, type: 2}
+  - Wave: {fileID: 11400000, guid: ef55080e53892ee4ea0eb4f7f93c6923, type: 2}
+  - Wave: {fileID: 11400000, guid: 1d3d0940f985079448ea53649d9cd2e2, type: 2}
+  - Wave: {fileID: 11400000, guid: eab3a8cb8a686ba42b807bae7657ad8a, type: 2}
+  - Wave: {fileID: 11400000, guid: 8221470fad1b9314eba46989ae3aff9d, type: 2}
+  - Wave: {fileID: 11400000, guid: 61aade9b6f19cdf4cacde8dcdb552b3d, type: 2}
+  - Wave: {fileID: 11400000, guid: eef9bceacaec1a545a9dbc587bff71fe, type: 2}
+  - Wave: {fileID: 11400000, guid: 772d6039e4dfaa045b3d6b2e8181bc1a, type: 2}
+  - Wave: {fileID: 11400000, guid: 61aade9b6f19cdf4cacde8dcdb552b3d, type: 2}

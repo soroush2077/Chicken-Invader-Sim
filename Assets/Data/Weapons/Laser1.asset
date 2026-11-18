@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aacf15d8d08b7f948889ba22a5446ced, type: 3}
+  m_Name: Laser1
+  m_EditorClassIdentifier: ChickenInvader.Runtime::ChickenInvader.WeaponDataSO
+  DisplayName: Single Laser
+  Icon: {fileID: -3142468196358152358, guid: 3f0ce1d2e1c798f4d86eb5317bec95a0, type: 3}
+  ProjectilePrefab: {fileID: 3614103796805889213, guid: c3645fc4a72b382448867b0b56c94aaf, type: 3}
+  Damage: 1
+  ProjectileSpeed: 10
+  FireInterval: 0.3
+  Shots:
+  - Offset: {x: 0, y: 0}
+    AngleDegrees: 0

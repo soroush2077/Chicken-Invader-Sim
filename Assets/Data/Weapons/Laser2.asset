@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aacf15d8d08b7f948889ba22a5446ced, type: 3}
+  m_Name: Laser2
+  m_EditorClassIdentifier: ChickenInvader.Runtime::ChickenInvader.WeaponDataSO
+  DisplayName: Twin Laser
+  Icon: {fileID: 21300000, guid: 194ad58d0919bf44ba97520d444b8b63, type: 3}
+  ProjectilePrefab: {fileID: 3614103796805889213, guid: 30e5bccb78437664183f18b52a54c681, type: 3}
+  Damage: 1
+  ProjectileSpeed: 10
+  FireInterval: 0.4
+  Shots:
+  - Offset: {x: -0.15, y: 0}
+    AngleDegrees: 0
+  - Offset: {x: 0.15, y: 0}
+    AngleDegrees: 0
